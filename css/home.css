@@ -1,0 +1,20 @@
+
+.eixo{
+    animation: giro linear infinite 3s;
+    position: relative;
+
+
+}
+main{
+    display: inline-block;
+}
+.frente{
+    position: relative;
+    transform:   translateZ(-10px);
+}
+@keyframes giro{
+    0% { transform: rotatey(-10deg);}
+    33% { transform: rotatey(10deg);}
+    66% { transform: rotatey(0deg);}
+    100% { transform: rotatey(-10deg);}
+}

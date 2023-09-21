@@ -1,0 +1,35 @@
+form label{
+   
+    height: 200px;
+   
+    
+}
+form label,input{
+    
+    text-align: center;
+    
+    
+}
+
+form{
+    width: 80%;
+    
+}
+form div{
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.744);
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 10%;
+}
+.dados{
+    height: 200px;
+}
+.login{
+    height: 100px;
+}
+.endereço{
+    height: 180px;
+}
